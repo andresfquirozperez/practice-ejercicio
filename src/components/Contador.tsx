@@ -1,10 +1,9 @@
 import { useState } from "react";
-import styles from "./Contador.module.css";
 
 export const Contador = () => {
   const [state, setState] = useState(true);
   return (
-    <div className={styles.card}>
+    <div className="bg-amber-600 p-4 rounded-2xl">
       <h1 className="title">Contador</h1>
       <button
         className="buttonClick"
@@ -17,3 +16,6 @@ export const Contador = () => {
     </div>
   );
 };
+1;
+33;
+28;

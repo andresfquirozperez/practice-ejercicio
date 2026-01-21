@@ -3,10 +3,10 @@ import { HolaMundo } from "./components/HolaMundo";
 
 function App() {
   return (
-    <>
-      <Contador />
+    <div className="bg-black h-screen">
       <HolaMundo />
-    </>
+      <Contador />
+    </div>
   );
 }
 // 46 07
