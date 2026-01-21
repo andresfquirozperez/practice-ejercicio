@@ -1,3 +1,5 @@
+import { CardList } from "../components/CardList";
+
 export const Home = () => {
   return (
     <main
@@ -11,6 +13,7 @@ export const Home = () => {
         >
           React 19 - Teoria
         </h1>
+        <CardList />
       </div>
     </main>
   );
