@@ -7,7 +7,10 @@ export const CardList = () => {
       title: "useEffect",
       to: "/useEffect",
     },
-    { title: "imagenes", to: "/images" },
+    {
+      title: "imagenes",
+      to: "/images",
+    },
   ];
   return (
     <div className="flex flex-col gap-4">
