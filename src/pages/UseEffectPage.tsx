@@ -10,10 +10,12 @@ export const UseEffectPage = () => {
     return () => clearInterval(intervalo);
   }, []);
   return (
-    <main className="bg-amber-500 h-screen">
+    <main className="h-screen bg-amber-300 text-black flex flex-col justify-center items-center">
       <BtnVolver />
-      <span>UseEffect: </span>
-      {segundos}
+      <h2 className="text-3xl font-bold mb-6">UseEffect: </h2>
+      <div className="w-48 h-48 rounded-full bg-white border-8 border-[#121212] flex items-center justify-center shadow-lg ">
+        <span className="text-4x1 font-semibold">{segundos}</span>
+      </div>
     </main>
   );
 };
